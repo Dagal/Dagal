@@ -1,0 +1,2 @@
+# Dagal
+Base for a lot of project in mind
