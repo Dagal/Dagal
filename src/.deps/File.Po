@@ -1,0 +1,7 @@
+File.o: File.cpp /usr/include/stdc-predef.h File.h Object.h
+
+/usr/include/stdc-predef.h:
+
+File.h:
+
+Object.h:
