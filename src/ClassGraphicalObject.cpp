@@ -1,9 +1,11 @@
-#include "ClassGraphicalObject.h"
+#include "Dagal/ClassGraphicalObject.h"
 
 namespace Dagal {
 
-	ClassGraphicalObject::ClassGraphicalObject()
-	{
-	}
+  ClassGraphicalObject::ClassGraphicalObject(Object* parent)
+    : GraphicalObject(parent)
+  {
+    
+  }
 
 } // namespace Dagal

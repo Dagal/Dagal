@@ -1,9 +1,10 @@
-#include "TextView.h"
+#include "Dagal/TextView.h"
 
 namespace Dagal {
 
-	TextView::TextView()
-	{
-	}
+  TextView::TextView(Object* parent)
+    : View(parent)
+  {
+  }
 
 } // namespace Dagal

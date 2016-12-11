@@ -1,9 +1,10 @@
-#include "Window.h"
+#include "Dagal/Window.h"
 
 namespace Dagal {
-
-	Window::Window()
-	{
-	}
-
+  
+  Window::Window(Object* parent)
+    : ContainerView(parent)
+  {
+  }
+  
 } // namespace Dagal

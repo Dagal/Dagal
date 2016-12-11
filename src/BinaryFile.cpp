@@ -1,9 +1,7 @@
-#include "BinaryFile.h"
+#include "Dagal/BinaryFile.h"
 
 namespace Dagal {
-
-	BinaryFile::BinaryFile()
-	{
-	}
-
+  BinaryFile::BinaryFile(Object* parent) : File(parent) {
+    
+  }
 } // namespace Dagal

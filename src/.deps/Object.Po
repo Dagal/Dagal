@@ -1,5 +1,0 @@
-Object.o: Object.cpp /usr/include/stdc-predef.h Object.h
-
-/usr/include/stdc-predef.h:
-
-Object.h:

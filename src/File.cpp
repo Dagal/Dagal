@@ -1,9 +1,9 @@
-#include "File.h"
+#include "Dagal/File.h"
 
 namespace Dagal
 {
-  File::File()
-    :Object()
+  File::File(Object* parent)
+    :Object(parent)
   {
   }
 

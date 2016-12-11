@@ -1,9 +1,10 @@
-#include "GraphicalView.h"
+#include "Dagal/GraphicalView.h"
 
 namespace Dagal {
 
-	GraphicalView::GraphicalView()
-	{
-	}
+  GraphicalView::GraphicalView(Object* parent)
+    : View(parent)
+  {
+  }
 
 } // namespace Dagal

@@ -1,9 +1,10 @@
-#include "ContainerView.h"
+#include "Dagal/ContainerView.h"
 
 namespace Dagal {
 
-	ContainerView::ContainerView()
-	{
-	}
+  ContainerView::ContainerView(Object* parent)
+    : View(parent)
+  {
+  }
 
 } // namespace Dagal

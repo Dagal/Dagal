@@ -1,8 +1,8 @@
-#include "TextFile.h"
+#include "Dagal/TextFile.h"
 
 namespace Dagal {
 
-	TextFile::TextFile()
+  TextFile::TextFile(Object* parent) : File(parent)
 	{
 	}
 

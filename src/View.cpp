@@ -1,9 +1,10 @@
-#include "View.h"
+#include "Dagal/View.h"
 
 namespace Dagal {
 
-	View::View()
-	{
-	}
+  View::View(Object* parent)
+    : Object(parent)
+  {
+  }
 
 } // namespace Dagal

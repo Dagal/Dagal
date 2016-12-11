@@ -1,8 +1,8 @@
-#include "CodeFile.h"
+#include "Dagal/CodeFile.h"
 
 namespace Dagal {
 
-	CodeFile::CodeFile()
+  CodeFile::CodeFile(Object* parent) : TextFile(parent)
 	{
 	}
 

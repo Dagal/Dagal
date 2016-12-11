@@ -1,9 +1,10 @@
-#include "UmlView.h"
+#include "Dagal/UmlView.h"
 
 namespace Dagal {
 
-	UmlView::UmlView()
-	{
-	}
+  UmlView::UmlView(Object* parent)
+    : GraphicalView(parent)
+  {
+  }
 
 } // namespace Dagal

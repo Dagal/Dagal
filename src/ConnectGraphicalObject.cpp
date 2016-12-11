@@ -1,9 +1,10 @@
-#include "ConnectGraphicalObject.h"
+#include "Dagal/ConnectGraphicalObject.h"
 
 namespace Dagal {
 
-	ConnectGraphicalObject::ConnectGraphicalObject()
-	{
-	}
-
+  ConnectGraphicalObject::ConnectGraphicalObject(Object* parent)
+    : GraphicalObject(parent)
+  {
+  }
+  
 } // namespace Dagal
